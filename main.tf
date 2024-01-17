@@ -6,7 +6,7 @@ resource "aws_instance" "my_vm" {
     Name = var.name_tag,
   }
 }
-
+/*
 resource "aws_instance" "my_vm2" {
   ami           = var.ami //Ubuntu AMI
   instance_type = var.instance_type
@@ -15,3 +15,4 @@ resource "aws_instance" "my_vm2" {
     Name = var.name_tag,
   }
 }
+*/
